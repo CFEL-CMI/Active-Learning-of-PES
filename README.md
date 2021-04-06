@@ -3,8 +3,26 @@ Repository will be updated over the next days.
 
 The repository contains the three active learning (AL) strategies implemented in [1] to construct the potential energy surface (PES) of pyrrole-water molecules. The implementation of the AL algorithms is based on the abstract implementation of the libact package [2]. The HDF5 file "dataset" contains the molecular geometries and corresponding potential energies used in the simulations as well as the fixed structures of the pyrrole and water monomers. The repository is not a complete AL package and is not fully generic.
 
-## Prerequisites
-The codes require an installation of Python, Tensorflow (>2.0), scikit-learn and libact.
+## Dependencies
+The codes require an installation of Python, Tensorflow (>=2.2), scikit-learn  and libact.
+```
+pip3 install -r requirements.txt
+```
+Since lapack and openblas packages have a functions with the same name, directly installing libact was not possible. A fix is to let go of the variance reduction algorithm in libact:
+```
+LIBACT_BUILD_HINTSVM=1  LIBACT_BUILD_VARIANCE_REDUCTION=0 pip install git+https://github.com/ntucllab/libact.git
+```
+
+## Installation
+
+To install the package run:
+```
+python setup.py install
+```
+or in a developer-mode:
+```
+python setup.py develop
+```
 
 ## AL algorithms
 
@@ -18,7 +36,7 @@ and SQBF are trees of a sklearn's trees' ensemble (random forest regressor or ex
 
 ## Usage
 
-AL_PES.py demonstrates how to use SQBF to minimize the number of datapoints for constructing the PES of pyrrole-water molecules. The other 2 AL strategies can be used the same way. To evaluate the performance of an AL algorithm, one can train a model on the so-far-labeled data for each algorithm and compute its accuracy on a test dataset. This is demonstrated in AL_PES.py where we use the trees' ensemble as well as a neural network to evaluate the performance. Building and training the neural network is performed in nnutils.py.  
+Pyrrolew.py demonstrates how to use SQBF to minimize the number of datapoints for constructing the PES of pyrrole-water molecules. The other 2 AL strategies can be used the same way. To evaluate the performance of an AL algorithm, one can train a model on the so-far-labeled data for each algorithm and compute its accuracy on a test dataset. This is demonstrated in AL_PES.py where we use the trees' ensemble as well as a neural network to evaluate the performance. Building and training the neural network is performed in nnutils.py.  
 
 ## References
 
