@@ -84,7 +84,7 @@ def main(No_iterations=20, initial_size=2458):
     #create a random forest model
     Trees = RFR(n_estimators=100, max_features=12, max_depth=None,
                 min_samples_leaf=1, min_samples_split=2, bootstrap=False,
-                max_samples=0.9, ccp_alpha=0.01, n_jobs=-1)
+                n_jobs=-1)
     iter = 0
     while dataset.len_unlabeled()>0: # While Pool isn't emtpy
         # get labeled entries in the pool
