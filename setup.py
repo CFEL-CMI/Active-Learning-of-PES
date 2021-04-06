@@ -17,7 +17,7 @@ which is part of and documented in ...
 Author:             Yahya Saleh, Vishnu Sanjay, and the CFEL Controlled Molecule Imaging group <jochen.kuepper@cfel.de>
 Current maintainer: Yahya Saleh <yahya.saleh@cfel.de>
 """
-
+package_dir = {'': 'scripts'}
 setup(name=name,
       python_requires     = '>=3.8',
       author              = "Yahya Saleh, Vishnu Sanjay, and the CFEL-CMI group",
@@ -40,5 +40,4 @@ setup(name=name,
               'source_dir': ('setup.py', 'doc'),
               'copyright': ('setup.py', copyright)}
       },
-      install_requires     = ['tensorflow>=2.2']
       )
