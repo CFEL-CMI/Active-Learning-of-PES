@@ -37,6 +37,7 @@ An overview of the AL algorithms and their implementation is provided in the doc
 ```
 python setup.py build_sphinx
 ```
+The generated HTML documentation can then be viewed by opening `./build/sphinx/html/index.html` in a browser.
 ## References
 
 [1] Saleh Y., Sanjay V., Iske A., Yachmenev A. Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’. ArXiv:2104.00708 [Physics], Apr. 2021. arXiv.org, http://arxiv.org/abs/2104.00708.
