@@ -1,3 +1,5 @@
+.. _AL-theory:
+
 ************************************************
 Outline of pool-based active learning algorithms
 ************************************************
@@ -28,3 +30,6 @@ Stochastic Query-by-Forest (SQBF)[2]
 Similar to QBC, an ensemble of learners is trained on the currently-labelled data and prediction's variances
 between the ensemble's members are computed. However, to query data one samples from a probability density function that is constructed
 from these variances.
+
+These three algorithms are intended to be used for regression problems in a batch setting. The committee of learners in QBC and SQBF are trees of a sklearn's trees' ensemble (random forest regressor or extremely randomized trees). 
+An ensemble of any other learners can be used with minor changes to the query strategies.

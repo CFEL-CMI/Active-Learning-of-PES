@@ -1,3 +1,5 @@
+.. _implementation-details:
+
 ********************************************
 Implementation of active learning algorithms
 ********************************************
