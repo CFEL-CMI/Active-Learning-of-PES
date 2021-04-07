@@ -4,7 +4,7 @@ Repository will be updated over the next days.
 The repository contains the three active learning (AL) strategies implemented in [1] to construct the potential energy surface (PES) of pyrrole-water molecules. The implementation of the AL algorithms is based on the abstract implementation of the libact package [2]. The HDF5 file "dataset" contains the molecular geometries and corresponding potential energies used in the simulations as well as the fixed structures of the pyrrole and water monomers. The repository is not a complete AL package and is not fully generic. For further details please consult the documentation and the manuscript [1].
 
 ## Dependencies
-The codes require an installation of Python, Tensorflow (>=2.2), scikit-learn  and libact.
+The codes require an installation of Python(3.7.3), Tensorflow (>=2.2), scikit-learn  and libact.
 ```
 pip3 install -r requirements.txt
 ```
@@ -36,7 +36,11 @@ and SQBF are trees of a sklearn's trees' ensemble (random forest regressor or ex
 
 ## Usage
 
-Pyrrolew.py demonstrates how to use SQBF to minimize the number of datapoints for constructing the PES of pyrrole-water molecules. The other 2 AL strategies can be used the same way. To evaluate the performance of an AL algorithm, one can train a model on the so-far-labeled data for each algorithm and compute its accuracy on a test dataset. This is demonstrated in AL_PES.py where we use the trees' ensemble as well as a neural network to evaluate the performance. Building and training the neural network is performed in nnutils.py.  
+Pyrrolew.py demonstrates how to use SQBF to minimize the number of datapoints for constructing the PES of pyrrole-water molecules. To run this, with terminal open in the main folder use:
+```
+python examples/pyrrolew.py
+```
+The other 2 AL strategies can be used the same way. To evaluate the performance of an AL algorithm, one can train a model on the so-far-labeled data for each algorithm and compute its accuracy on a test dataset. This is demonstrated in AL_PES.py where we use the trees' ensemble as well as a neural network to evaluate the performance. Building and training the neural network is performed in nnutils.py.  
 
 ## References
 
