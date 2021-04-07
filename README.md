@@ -1,7 +1,7 @@
 Repository will be updated over the next days.
 # Stochastic active learning of potential energy surfaces
 
-The repository contains the three active learning (AL) strategies implemented in [1] to construct the potential energy surface (PES) of pyrrole-water molecules. The implementation of the AL algorithms is based on the abstract implementation of the libact package [2]. The HDF5 file "dataset" contains the molecular geometries and corresponding potential energies used in the simulations as well as the fixed structures of the pyrrole and water monomers. The repository is not a complete AL package and is not fully generic.
+The repository contains the three active learning (AL) strategies implemented in [1] to construct the potential energy surface (PES) of pyrrole-water molecules. The implementation of the AL algorithms is based on the abstract implementation of the libact package [2]. The HDF5 file "dataset" contains the molecular geometries and corresponding potential energies used in the simulations as well as the fixed structures of the pyrrole and water monomers. The repository is not a complete AL package and is not fully generic. For further details please consult the documentation and the manuscript [1].
 
 ## Dependencies
 The codes require an installation of Python, Tensorflow (>=2.2), scikit-learn  and libact.
@@ -40,9 +40,6 @@ Pyrrolew.py demonstrates how to use SQBF to minimize the number of datapoints fo
 
 ## References
 
-[1] Active learning of potential-energy surfaces of weakly-bound complexes
-with regression-tree ensembles,
-Y.Saleh, V. Sanjay, A. Iske, A.Yachmenev, J. Küpper.
+[1] Saleh Y., Sanjay V., Iske A., Yachmenev A. Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’. ArXiv:2104.00708 [Physics], Apr. 2021. arXiv.org, http://arxiv.org/abs/2104.00708.
 
-[2] libact: Pool-based Active Learning in Python, Y.Y. Yang et al.,
-https://github.com/ntucllab/libact.
+[2] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. ArXiv:1710.00379 [Cs], Oct. 2017. arXiv.org, http://arxiv.org/abs/1710.00379, Github repository, https://github.com/ntucllab/libact.
