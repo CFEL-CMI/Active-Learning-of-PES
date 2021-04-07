@@ -4,7 +4,7 @@
 Implementation of active learning algorithms
 ********************************************
 
-The implementation of the active learning algorithms is based on the abstract codes of libact package.
+The implementation of the active learning algorithms is based on the abstract codes of python libact package [YSYTSH2017]_.
 Please consult its git repository and the corresponding paper for more details.
 Here we give an example of how to use it.
 
@@ -30,3 +30,9 @@ the dataset is updated accordingly::
 
 
     dataset.update(ids, Labeler[ids])
+
+
+**********
+References
+**********
+.. [YSYTSH2017] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. ArXiv:1710.00379 [Cs], Oct. 2017. `arXiv <http://arxiv.org/abs/1710.00379>`_, `Github repository <https://github.com/ntucllab/libact>`_.
