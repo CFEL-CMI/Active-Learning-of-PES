@@ -11,8 +11,9 @@ version = "1.0"
 release = version
 long_description = """Active Learning of PES
 
-This is the installation and general build file of the CMI Active Learning of PES code,
-which is part of and documented in ...
+This is the installation and general build file of the CMI Active Learning of PES code. The code
+demonstrates how to use the active learning algorithms developed in (arXiv:2104.00708) to construct
+potential energy surfaces of pyrrole water molecules.
 
 Author:             Yahya Saleh, Vishnu Sanjay, and the CFEL Controlled Molecule Imaging group <jochen.kuepper@cfel.de>
 Current maintainer: Yahya Saleh <yahya.saleh@cfel.de>
