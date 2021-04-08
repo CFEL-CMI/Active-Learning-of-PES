@@ -32,7 +32,6 @@ the dataset is updated accordingly::
     dataset.update(ids, Labeler[ids])
 
 
-**********
 References
-**********
+==========
 .. [YSYTSH2017] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. ArXiv:1710.00379 [Cs], Oct. 2017. `arXiv <http://arxiv.org/abs/1710.00379>`_, `Github repository <https://github.com/ntucllab/libact>`_.
