@@ -8,7 +8,7 @@ The codes require an installation of Python(3.7.3). To install all necessary pac
 ```
 pip3 install -r requirements.txt
 ```
-Directly installing libact was not possible since lapack and openblas packages have a function with the same name. A fix is to let go of the variance reduction algorithm in libact:
+Install the libact package with the following custom options:
 ```
 LIBACT_BUILD_HINTSVM=1  LIBACT_BUILD_VARIANCE_REDUCTION=0 pip install git+https://github.com/ntucllab/libact.git
 ```
