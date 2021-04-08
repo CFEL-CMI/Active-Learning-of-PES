@@ -22,9 +22,6 @@ An implementation of stochastic query by committee (QBC) algorithm for regressio
 committee are regression trees. The disagreement criterion between the trees is the standard deviation from their mean prediction.
 Data to query are chosen by a random samplin procedure that gives higher weights for data points corresponding to uncertainties in their
 predictions.
-See:
-[1] Borisov, Active batch learning with stochastic query-by-forest (SQBF), Active Learning and Experimental Design workshop In conjunction with AISTATS 2010,
-  pages={59--69}, 2011.
 """
 
 import numpy as np

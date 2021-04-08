@@ -21,9 +21,6 @@
 An implementation of query by committee (QBC) algorithm for regression problems in a batch setting. The members of the
 committee are regression trees. The disagreement criterion between the trees is the standard deviation of the predictions
 of the trees.
-See:
-[1] H. S. Seung, M. Opper, and H. Sompolinsky, “Query by committee,” in Proceedings of the fifth annual workshop on
-Computational learning theory (1992) pp. 287–294.
 """
 
 import numpy as np
