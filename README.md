@@ -6,7 +6,7 @@ The repository contains the three active learning (AL) strategies implemented in
 ## Dependencies
 The codes require an installation of Python(3.7.3). To install all necessary packages run:
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 Install the libact package with the following custom options:
 ```
