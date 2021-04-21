@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# -*- coding: utf-8; fill-column: 120 -*-
+#
+# Copyright (C) 2021 CFEL Controlled Molecule Imaging group
 
 import numpy as np
 from libact.base.dataset import Dataset
