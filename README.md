@@ -40,6 +40,6 @@ python setup.py build_sphinx
 The generated HTML documentation can then be viewed by opening `./build/sphinx/html/index.html` in a browser. Further details are provided in the manuscript and references therein.
 ## References
 
-[1] Saleh Y., Sanjay V., Iske A., Yachmenev A., and Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’. [ArXiv:2104.00708] (http://arxiv.org/abs/2104.00708) [Physics], Apr. 2021.
+[1] Saleh Y., Sanjay V., Iske A., Yachmenev A., and Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’. [ArXiv:2104.00708]( http://arxiv.org/abs/2104.00708) [Physics], Apr. 2021.
 
-[2] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. [ArXiv:1710.00379] (http://arxiv.org/abs/1710.00379) [Cs], Oct. 2017, [Github repository](https://github.com/ntucllab/libact).
+[2] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. [ArXiv:1710.00379](http://arxiv.org/abs/1710.00379) [Cs], Oct. 2017, [Github repository](https://github.com/ntucllab/libact).
