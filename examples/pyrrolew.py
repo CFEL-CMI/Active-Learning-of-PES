@@ -5,12 +5,12 @@
 
 import numpy as np
 from libact.base.dataset import Dataset
-from AL_PESs.query_strategies.stochastic_query_by_forest import SQBF
+from stochastic_query_by_forest import SQBF
 from sklearn.ensemble import RandomForestRegressor as RFR
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import h5py as hp
-from AL_PESs.nnutils import *
+from nnutils import *
 
 def LoadData(filename: str, No_iterations: int, initial_size: int):
     """Returns precalculated electronic structure calculations for pyrrole-water.
