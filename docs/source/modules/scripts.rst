@@ -1,7 +1,7 @@
-AL_PESs.query_strategies package
+Scripts package
 ================================
 
-.. automodule:: AL_PESs.query_strategies
+.. automodule:: scripts
    :members:
    :undoc-members:
    :show-inheritance:
@@ -9,26 +9,26 @@ AL_PESs.query_strategies package
 Submodules
 ----------
 
-AL_PESs.query_strategies.query_by_committee_reg
+scripts.query_by_committee_reg
 -----------------------------------------------
 
-.. automodule:: AL_PESs.query_strategies.query_by_committee_reg
+.. automodule:: scripts.query_by_committee_reg
    :members:
    :undoc-members:
    :show-inheritance:
 
-AL_PESs.query_strategies.random_sampling
+scripts.random_sampling
 ----------------------------------------
 
-.. automodule:: AL_PESs.query_strategies.random_sampling
+.. automodule:: scripts.random_sampling
    :members:
    :undoc-members:
    :show-inheritance:
 
-AL_PESs.query_strategies.stochastic_query_by_forest
+scripts.stochastic_query_by_forest
 ---------------------------------------------------
 
-.. automodule:: AL_PESs.query_strategies.stochastic_query_by_forest
+.. automodule:: scripts.stochastic_query_by_forest
   :members:
   :undoc-members:
   :show-inheritance:

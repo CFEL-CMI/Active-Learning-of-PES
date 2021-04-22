@@ -14,7 +14,7 @@ and :ref:`implementation-details`, respectively. Further details are provided in
 
    AL_TH/TH
    Implementation/imp_details
-   modules/AL_PESs.query_strategies
+   modules/scripts
 
 Indices and tables
 ==================
