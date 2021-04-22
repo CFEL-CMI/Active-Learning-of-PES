@@ -19,9 +19,28 @@ Author:             Yahya Saleh, Vishnu Sanjay, and the CFEL Controlled Molecule
 Current maintainer: Yahya Saleh <yahya.saleh@cfel.de>
 """
 
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: Console',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: POSIX :: Linux',
+    'Operating System :: Unix',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.7',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Scientific/Engineering :: Physics',
+    'Topic :: Scientific/Engineering :: Chemistry',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+]
+
 package_dir = {'': 'scripts'}
 setup(name=name,
-      python_requires     = '>=3.8',
+      python_requires     = '=3.7',
       author              = "Yahya Saleh, Vishnu Sanjay, and the CFEL-CMI group",
       author_email        = "jochen.kuepper@cfel.de",
       maintainer          = "Yahya Saleh and the CFEL-CMI group",
@@ -42,4 +61,5 @@ setup(name=name,
               'source_dir': ('setup.py', 'docs/source'),
               'copyright': ('setup.py', copyright)}
       },
+      classifiers         = classifiers,
       )
