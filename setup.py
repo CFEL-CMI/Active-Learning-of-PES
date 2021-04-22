@@ -38,9 +38,8 @@ classifiers = [
     'Topic :: Scientific/Engineering :: Artificial Intelligence',
 ]
 
-package_dir = {'': 'scripts'}
 setup(name=name,
-      python_requires     = '=3.7',
+      python_requires     = '~=3.7',
       author              = "Yahya Saleh, Vishnu Sanjay, and the CFEL-CMI group",
       author_email        = "yahya.saleh@cfel.de",
       maintainer          = "Yahya Saleh and the CFEL-CMI group",
@@ -50,8 +49,7 @@ setup(name=name,
       version             = version,
       long_description    = long_description,
       license             = "GPL",
-      package_dir         = package_dir,
-      packages            = find_packages(where='scripts'),
+      packages            = ['scripts'],
       command_options     = {
           'build_sphinx': {
               'project': ('setup.py', name),
