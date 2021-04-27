@@ -1,4 +1,4 @@
-# CMI Active-Learning-of-PES licensing conditions
+# ALPES licensing conditions
 
 The CMI Active-Learning-of-PES is provided by the CFEL-CMI group as is. It is licensed under the
 [GPL v3](./LICENSE-GPLv3.md) with the following additional requests to users:
