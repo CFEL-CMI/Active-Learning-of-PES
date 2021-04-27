@@ -1,4 +1,4 @@
-Welcome to CMI Active Learning for PESs's documentation!
+Welcome to ALPES' documentation!
 ========================================================
 
 This repository contains the main codes that were developed to perform the simulations in [SSIYK2021]_. In particular, the
