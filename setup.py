@@ -4,7 +4,6 @@
 # Copyright (C) 2021 CFEL Controlled Molecule Imaging group
 
 from setuptools import setup, find_packages
-
 copyright = 'Copyright (C) 2021 Jochen Küpper <jochen.kuepper@cfel.de>'
 name = "Active Learning of PES"
 version = "1.0"
@@ -49,7 +48,7 @@ setup(name=name,
       version             = version,
       long_description    = long_description,
       license             = "GPL",
-      packages            = ['scripts'],
+      packages            = ['AL_PES'],
       command_options     = {
           'build_sphinx': {
               'project': ('setup.py', name),
