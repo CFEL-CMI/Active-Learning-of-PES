@@ -30,9 +30,9 @@ To install the package run:
 ```
 python setup.py install
 ```
-or in a developer-mode:
+or in a developer-mode, e.g.:
 ```
-python setup.py develop
+python setup.py develop --user
 ```
 
 
