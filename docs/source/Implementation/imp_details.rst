@@ -19,7 +19,7 @@ active learning iterations.
 We define an SQBF-object that takes as an input an sklearn-ensemble of trees, required batchsize and the
 dataset::
 
-    from scripts.stochastic_query_by_forest import SQBF
+    from AL_PES.stochastic_query_by_forest import SQBF
     from sklearn.ensemble import RandomForestRegressor as RFR
     Trees = RFR(n_estimators=100)
     query_strategy = SQBF(Trees=Trees, BatchSize=512, dataset=dataset)
