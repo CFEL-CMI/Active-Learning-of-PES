@@ -1,7 +1,7 @@
 query_strategies package
 ================================
 
-.. automodule:: AL_PES.query_strategies
+.. automodule:: ALPES.query_strategies
    :members:
    :undoc-members:
    :show-inheritance:
