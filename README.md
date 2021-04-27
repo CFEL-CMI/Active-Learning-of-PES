@@ -4,7 +4,7 @@
 The repository contains the three active learning (AL) strategies implemented in [1] to construct the potential energy surface (PES) of pyrrole-water molecules. The implementation of the AL algorithms is based on the abstract implementation of the libact package [2]. The HDF5 file "dataset" contains the molecular geometries and corresponding potential energies used in the simulations as well as the fixed structures of the pyrrole and water monomers. The repository is not a complete AL package and is not fully generic. Extension to other molecules is straightforward. For further details please consult the documentation and the manuscript [1].
 
 ## Dependencies
-The codes require an installation of Python(3.7). To install all necessary packages run:
+The codes were tested using Python 3.7. To install all necessary packages run:
 ```
 pip install -r requirements.txt
 ```
