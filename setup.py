@@ -5,10 +5,10 @@
 
 from setuptools import setup, find_packages
 copyright = 'Copyright (C) 2021 Jochen Küpper <jochen.kuepper@cfel.de>'
-name = "Active Learning of PES"
+name = "ALPES"
 version = "1.0"
 release = version
-long_description = """Active Learning of PES
+long_description = """ALPES: Stochastic active learning of PES
 
 This is the installation and general build file of the CMI Active Learning of PES code. The code
 demonstrates how to use the active learning algorithms developed in (arXiv:2104.00708) to construct
@@ -48,7 +48,7 @@ setup(name=name,
       version             = version,
       long_description    = long_description,
       license             = "GPL",
-      packages            = ['AL_PES'],
+      packages            = ['ALPES'],
       command_options     = {
           'build_sphinx': {
               'project': ('setup.py', name),
