@@ -1,20 +1,21 @@
 #!/usr/bin/env python
-# -*- coding: utf-8; fill-column: 120 -*-
+# -*- coding: utf-8; fill-column: 100 -*-
 #
 # Copyright (C) 2021 CFEL Controlled Molecule Imaging group
 
 from setuptools import setup, find_packages
-copyright = 'Copyright (C) 2021 Jochen Küpper <jochen.kuepper@cfel.de>'
+copyright = 'Copyright (C) 2021 Yahya Saleh <yahya.saleh@cfel.de> and Jochen Küpper <jochen.kuepper@cfel.de>'
 name = "ALPES"
 version = "1.0"
 release = version
 long_description = """ALPES: Stochastic active learning of PES
 
 This is the installation and general build file of the CMI Active Learning of PES code. The code
-demonstrates how to use the active learning algorithms developed in (arXiv:2104.00708) to construct
-potential energy surfaces of pyrrole water molecules.
+demonstrates how to use the active learning algorithms developed in arXiv:2104.00708 [physics] to
+construct potential energy surfaces of pyrrole water molecules.
 
-Author:             Yahya Saleh, Vishnu Sanjay, and the CFEL Controlled Molecule Imaging group <jochen.kuepper@cfel.de>
+Author:             Yahya Saleh, Vishnu Sanjay, and the CFEL Controlled Molecule Imaging group
+                    https://www.controlled-molecule-imaging.org
 Current maintainer: Yahya Saleh <yahya.saleh@cfel.de>
 """
 
@@ -30,6 +31,7 @@ classifiers = [
     'Operating System :: Unix',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
+    'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: 3.7',
     'Topic :: Scientific/Engineering',
     'Topic :: Scientific/Engineering :: Physics',
