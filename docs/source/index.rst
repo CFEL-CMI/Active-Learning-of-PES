@@ -25,7 +25,18 @@ Indices and tables
 
 References
 ==========
-.. [SSIYK2021] Saleh Y., Sanjay V., Iske A., Yachmenev A., and Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’, `ArXiv:2104.00708 <http://arxiv.org/abs/2104.00708>`_ [Physics], Apr. 2021.
-.. [YSYTSH2017] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’, `ArXiv:1710.00379 <http://arxiv.org/abs/1710.00379>`_ [Cs], Oct. 2017., `Github repository <https://github.com/ntucllab/libact>`_.
-.. [B2011] Borisov, Active batch learning with stochastic query-by-forest (SQBF), Active Learning and Experimental Design workshop In conjunction with AISTATS 2010, pages={59--69}, 2011.
-.. [SOS1992] H. S. Seung, M. Opper, and H. Sompolinsky, “Query by committee,” in Proceedings of the fifth annual workshop on Computational learning theory (1992) pp. 287–294.
+.. [SSIYK2021] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, J. Küpper, *Active
+               Learning of Potential-Energy Surfaces of Weakly-Bound Complexes
+               with Regression-Tree Ensembles*, `arxiv:2104.00708 [physics]
+               <http://arxiv.org/abs/2104.00708>`_ (2021).
+.. [YSYTSH2017] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, H.-T.
+                Lin, *Libact: Pool-Based Active Learning in Python*,
+                `arxiv:1710.00379 [cs] <http://arxiv.org/abs/1710.00379>`_
+                (2017); `Github repository
+                <https://github.com/ntucllab/libact>`_.
+.. [B2011] A. Borisov, E. Tuv, G. Runger, *Active batch learning with stochastic
+           query-by-forest (SQBF)*, Active Learning and Experimental Design
+           workshop in conjunction with AISTATS 2010, 59--69 (2011).
+.. [SOS1992] H. S. Seung, M. Opper, H. Sompolinsky, *Query by committee*, in
+             Proceedings of the fifth annual workshop on Computational learning
+             theory (1992) pp. 287–294.
