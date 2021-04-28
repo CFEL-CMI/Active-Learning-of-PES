@@ -12,7 +12,7 @@ manuscript [1].
 
 ## Dependencies
 
-The codes were tested using Python 3.7. We recommend the use of a virtual
+The codes were tested on Python 3.7-3.8. We recommend the use of a virtual
 environment. To install all necessary packages run:
 
 ```
