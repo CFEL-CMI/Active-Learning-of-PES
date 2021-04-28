@@ -4,8 +4,6 @@
 Implementation of active learning algorithms
 ********************************************
 
-The implementation of the active learning algorithms is based on the abstract codes of the python libact package [YSYTSH2017]_.
-Please consult its git repository and the corresponding paper for more details.
 Here we give a minimal example on how to use the Stochastic Query by Forest algorithm.
 
 Starting from a dataset :math:`(X,Y)` as numpy arrays one can define a dataset object::
@@ -34,11 +32,4 @@ the dataset is updated accordingly::
 
     dataset.update(ids, Labeler[ids])
 
-
-References
-==========
-.. [YSYTSH2017] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, H.-T.
-                Lin, *Libact: Pool-Based Active Learning in Python*,
-                `arxiv:1710.00379 [cs] <http://arxiv.org/abs/1710.00379>`_
-                (2017); `Github repository
-                <https://github.com/ntucllab/libact>`_.
+For further details on the implementation consult the python libact package.

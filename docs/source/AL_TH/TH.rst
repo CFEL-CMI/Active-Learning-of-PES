@@ -9,8 +9,8 @@ In our manuscript and the respective codes we considered pool-based active learn
 Here, one starts by defining a pool of molecular geometries that is assumed to follow
 the true distribution of data. Then, a policy algorithm queries the labels of these geometries,
 as to minimize the number of required datapoints to construct the potential energy surface.
-We considered three different active learning algorithms: Random sampling, Query-by-Committee [SOS1992]_ and a regression
-version of Stochastic Query by Forest (SQBF) [B2011]_.
+We considered three different active learning algorithms: Random sampling, Query-by-Committee and a regression
+version of Stochastic Query by Forest (SQBF).
 
 Random sampling
 ===============
@@ -34,12 +34,3 @@ from these variances.
 
 These three algorithms are intended to be used for regression problems in a batch setting. The committee of learners in QBC and SQBF are trees of a sklearn's trees' ensemble (random forest regressor or extremely randomized trees).
 An ensemble of any other learners can be used with minor changes to the query strategies.
-
-References
-==========
-.. [B2011] A. Borisov, E. Tuv, G. Runger, *Active batch learning with stochastic
-           query-by-forest (SQBF)*, Active Learning and Experimental Design
-           workshop in conjunction with AISTATS 2010, 59--69 (2011).
-.. [SOS1992] H. S. Seung, M. Opper, H. Sompolinsky, *Query by committee*, in
-             Proceedings of the fifth annual workshop on Computational learning
-             theory (1992) pp. 287–294.
