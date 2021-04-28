@@ -4,7 +4,7 @@
 Use of active learning algorithms
 ********************************************
 
-Here we give a minimal example on how to use the Stochastic Query by Forest algorithm.
+Here we give a minimal example on how to use the stochastic query by forest (SQBF) algorithm.
 
 Starting from a dataset :math:`(X,Y)` as numpy arrays one can define a dataset object::
 
