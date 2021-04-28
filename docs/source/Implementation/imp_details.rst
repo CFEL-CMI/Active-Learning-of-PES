@@ -37,4 +37,8 @@ the dataset is updated accordingly::
 
 References
 ==========
-.. [YSYTSH2017] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’. `ArXiv:1710.00379 <http://arxiv.org/abs/1710.00379>`_ [Cs], Oct. 2017., `Github repository <https://github.com/ntucllab/libact>`_.
+.. [YSYTSH2017] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, H.-T.
+                Lin, *Libact: Pool-Based Active Learning in Python*,
+                `arxiv:1710.00379 [cs] <http://arxiv.org/abs/1710.00379>`_
+                (2017); `Github repository
+                <https://github.com/ntucllab/libact>`_.

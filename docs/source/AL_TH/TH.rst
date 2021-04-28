@@ -37,5 +37,9 @@ An ensemble of any other learners can be used with minor changes to the query st
 
 References
 ==========
-.. [B2011] Borisov, Active batch learning with stochastic query-by-forest (SQBF), Active Learning and Experimental Design workshop In conjunction with AISTATS 2010, pages={59--69}, 2011.
-.. [SOS1992] H. S. Seung, et al., “Query by committee,” in Proceedings of the fifth annual workshop on Computational learning theory (1992) pp. 287–294.
+.. [B2011] A. Borisov, E. Tuv, G. Runger, *Active batch learning with stochastic
+           query-by-forest (SQBF)*, Active Learning and Experimental Design
+           workshop in conjunction with AISTATS 2010, 59--69 (2011).
+.. [SOS1992] H. S. Seung, M. Opper, H. Sompolinsky, *Query by committee*, in
+             Proceedings of the fifth annual workshop on Computational learning
+             theory (1992) pp. 287–294.
