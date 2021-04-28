@@ -24,7 +24,6 @@ potential energies given molecular structures.
 
 import tensorflow as tf
 import numpy as np
-import os
 
 class LearningRateScheduler(tf.keras.callbacks.Callback):
     """Learning rate scheduler.
