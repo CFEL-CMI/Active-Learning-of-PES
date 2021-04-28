@@ -1,7 +1,7 @@
 .. _implementation-details:
 
 ********************************************
-Implementation of active learning algorithms
+Use of active learning algorithms
 ********************************************
 
 Here we give a minimal example on how to use the Stochastic Query by Forest algorithm.
