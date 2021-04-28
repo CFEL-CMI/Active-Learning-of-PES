@@ -78,14 +78,14 @@ def main(No_iterations=20, initial_size=2458):
         query_strategy = SQBF(Trees=Trees, BatchSize=BatchSize, dataset=dataset)
         # Compute the root mean squared error of the RFR model on the OOP data
         Error_RFR = np.sqrt(mean_squared_error(Y_oop, Trees.predict(X_oop)))
-        print(f"Iteration: {str(iter)}, Model: RFR, OOP Error: {Error_RFR}")
+        print(f"Iteration: {str(iter)}, model: random forest regressor, OOP Error: {Error_RFR} inverse centimeter")
 
         # Initialize a neural network and train it
         NN = MLPmodel()
         NN = MLPtrain(NN, X_L, y_L, Xv, Yv)
         # Compute the root mean squared error of the NN model on the OOP data
         Error_NN = np.sqrt(mean_squared_error(Y_oop, NN(X_oop)))
-        print(f"Iteration: {str(iter)}, Model: NN, OOP Error: {Error_NN}")
+        print(f"Iteration: {str(iter)}, model: neural network, test Error: {Error_NN} inverse centimeter")
 
         #Query new datapoints
         ids = query_strategy.make_query()
