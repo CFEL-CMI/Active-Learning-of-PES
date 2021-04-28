@@ -68,16 +68,13 @@ The generated HTML documentation can then be viewed by opening
 the manuscript and references therein.
 
 
-## References --  Fix these references – here – too
+## References 
 
-[1] Saleh Y., Sanjay V., Iske A., Yachmenev A., and Küpper J., ‘Active Learning
-of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree
-Ensembles’. [ArXiv:2104.00708]( http://arxiv.org/abs/2104.00708) [Physics], Apr.
-2021.
+[1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, “Active learning
+of potential-energy surfaces of weakly-bound complexes with regression-tree
+ensembles,” arXiv (2021), [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708).
 
-[2] Yang Z., et al. ‘Libact: Pool-Based Active Learning in Python’.
-[ArXiv:1710.00379](http://arxiv.org/abs/1710.00379) [Cs], Oct. 2017, [Github
-repository](https://github.com/ntucllab/libact).
+[2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, “libact: Pool-based active learning in Python,” Tech. Rep. (National Taiwan University, 2017) [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379).
 
 
 
