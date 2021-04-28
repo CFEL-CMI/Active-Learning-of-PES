@@ -49,7 +49,7 @@ python examples/pyrrolew.py
 The other 2 AL strategies can be used the same way. In this example, evaluating
 the performance of SQBF is performed by training a model on the so-far-labeled
 data for each AL algorithm and computing its accuracy on a test dataset. As
-models we used the trees' ensemble (RFR) as well as a neural network (NN).
+models we used the trees' ensemble (RFR) as well as a neural network (NN). Running the script prints the accuracy of the RFR and NN models as a function of the AL iteration.
 ALPES/nnutils.py provide the necessary tools to build and train the neural
 network.
 
@@ -68,7 +68,7 @@ The generated HTML documentation can then be viewed by opening
 the manuscript and references therein.
 
 
-## References 
+## References
 
 [1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, “Active learning
 of potential-energy surfaces of weakly-bound complexes with regression-tree
