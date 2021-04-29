@@ -48,8 +48,8 @@ python examples/pyrrolew.py
 
 The other 2 AL strategies can be used the same way. In this example, evaluating
 the performance of SQBF is performed by training a model on the so-far-labeled
-data for each AL algorithm and computing its accuracy on a test dataset. As
-models we used the trees' ensemble (RFR) as well as a neural network (NN). Running the script prints the accuracy of the RFR and NN models as a function of the AL iteration.
+data for each AL algorithm and computing its root mean squared error (RMSE) on a test dataset. As
+models we used the trees' ensemble (RFR) as well as a neural network (NN). Running the script prints the (RMSE) of the RFR and NN models as a function of the AL iteration.
 ALPES/nnutils.py provide the necessary tools to build and train the neural
 network.
 
