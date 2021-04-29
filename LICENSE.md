@@ -5,7 +5,9 @@ The CMI Active-Learning-of-PES is provided by the CFEL-CMI group as is. It is li
 
 * Its use for scientific work is acknowledged by the appropriate reference of the following publication in any resulting     work,  e.g., scientific publication.
 
-  Saleh Y., Sanjay V., Iske A., Yachmenev A. and Küpper J., ‘Active Learning of Potential-Energy Surfaces of Weakly-Bound Complexes with Regression-Tree Ensembles’. [ArXiv:2104.00708]( http://arxiv.org/abs/2104.00708) [Physics], Apr. 2021.
+   Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, “Active learning of potential-energy surfaces of weakly-bound complexes with regression-tree
+   ensembles,” arXiv (2021), [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708).
+
 
 
 * All corrections and enhancements are contributed back to the development of the package within
