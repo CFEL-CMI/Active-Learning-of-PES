@@ -40,6 +40,9 @@ classifiers = [
     'Topic :: Scientific/Engineering :: Artificial Intelligence',
 ]
 
+with open('requirements.txt') as of:
+    install_requires = of.read().splitlines()
+
 setup(name=name,
       python_requires     = '~=3.7',
       author              = "Yahya Saleh, Vishnu Sanjay, and the CFEL-CMI group",
@@ -52,6 +55,7 @@ setup(name=name,
       long_description    = long_description,
       license             = "GPL",
       packages            = ['ALPES'],
+      install_requires    = install_requires, 
       command_options     = {
           'build_sphinx': {
               'project': ('setup.py', name),
