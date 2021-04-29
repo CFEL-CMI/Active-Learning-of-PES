@@ -74,7 +74,7 @@ the manuscript and references therein.
 of potential-energy surfaces of weakly-bound complexes with regression-tree
 ensembles*, [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708) (2021).
 
-[2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, *libact: Pool-based active learning in Python*, [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379) (2017); [Github repository] ( https://github.com/ntucllab/libact).
+[2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, *libact: Pool-based active learning in Python*, [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379) (2017); [Github repository]( https://github.com/ntucllab/libact).
 
 
 
