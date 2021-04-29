@@ -70,11 +70,11 @@ the manuscript and references therein.
 
 ## References
 
-[1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, “Active learning
+[1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, *Active learning
 of potential-energy surfaces of weakly-bound complexes with regression-tree
-ensembles,” arXiv (2021), [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708).
+ensembles*, [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708) (2021).
 
-[2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, “libact: Pool-based active learning in Python,” Tech. Rep. (National Taiwan University, 2017) [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379).
+[2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, *libact: Pool-based active learning in Python*, [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379) (2017).
 
 
 
