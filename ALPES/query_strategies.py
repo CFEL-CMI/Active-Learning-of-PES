@@ -29,7 +29,9 @@ from libact.base.interfaces import QueryStrategy
 
 class QBCR(QueryStrategy):
     """QBC query strategy object.
+
     Args:
+
     BatchSize: int. The number of elements to query in a single AL iteration.
 
     Trees: an ensemble of trees sklearn instance composed of n trees.
@@ -37,6 +39,7 @@ class QBCR(QueryStrategy):
     dataset: an object containing the labeled and unlabeled data.
 
     Attribs:
+
     make_query: choose n=BatchSize data points to query from the pool.
     """
     def __init__(self, *args, **kwargs):
@@ -72,7 +75,9 @@ class QBCR(QueryStrategy):
 
 class SQBF(QueryStrategy):
     """SQBF query strategy object
+
     Args:
+
     BatchSize: int. The number of elements to query in a single AL iteration.
 
     Trees: an ensemble of trees sklearn instance composed of n trees.
@@ -80,6 +85,7 @@ class SQBF(QueryStrategy):
     dataset: an object containing the labeled and unlabeled data.
 
     Attribs:
+
     make_query: choose n=BatchSize data points to query from the pool.
     """
     def __init__(self, *args, **kwargs):
@@ -135,11 +141,13 @@ class RS(QueryStrategy):
     """RS query strategy object
 
     Args:
+
     BatchSize: int. The number of elements to query in a single AL iteration.
 
     dataset: an object containing the labeled and unlabeled data.
 
     Attribs:
+
     make_query: chooses n=BatchSize data points to query from the pool.
     """
 
