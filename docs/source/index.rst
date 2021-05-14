@@ -3,8 +3,8 @@ Welcome to ALPES' documentation!
 
 This repository contains the main codes that were developed to perform the simulations in [SSIYK2021]_. In particular, the
 repository contains three pool-based active learning (AL) algorithms used to minimize the number of required datapoints to construct
-the potential energy surfaces of pyrrole-water molecules. The AL algorithms are: uniform random sampling, Query-by-Committee (QBC) [SOS1992]_,
-and a regression version of Stochastic Query by Forest (SQBF) [B2011]_. All the algorithms were written based on the
+the potential energy surfaces of pyrrole-water molecules. The AL algorithms are: uniform random sampling, query by committee (QBC) [SOS1992]_,
+and a regression version of stochastic query by forest (SQBF) [B2011]_. All the algorithms were written based on the
 abstract implementation of the Libact python package [YSYTSH2017]_. For a quick overview on AL theory and implementation please refer to :ref:`AL-theory`
 and :ref:`implementation-details`, respectively. Further details are provided in the manuscript.
 

@@ -30,6 +30,6 @@ Stochastic query by forest (SQBF)
 
 Similar to QBC, an ensemble of learners is trained on the currently-labelled data and prediction's variances
 between the ensemble's members are computed. However, to query data one samples from a probability density function that is constructed
-from these variances. As an ensemble of learners we also use the trees of a random forest regressor, here.
+from these variances. As an ensemble of learners we also use the trees of a random forest regressor.
 
 In QBC and SQBF an ensemble of any other learners can be used with minor changes to the query strategies.
