@@ -9,12 +9,17 @@ from ALPES.query_strategies import SQBF
 from sklearn.ensemble import RandomForestRegressor as RFR
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+from sklearn.gaussian_process import GaussianProcessRegressor
+from sklearn.gaussian_process.kernels import Matern, WhiteKernel, RBF, ExpSineSquared
 import h5py as hp
 from ALPES.nnutils import *
+import sys
+import matplotlib.pyplot as plt
 
 def LoadData(filename: str, No_iterations: int, initial_size: int):
-    """Returns precalculated electronic structure calculations for pyrrole-water.
-
+    """
+    Returns precalculated electronic structure calculations for pyrrole-water
+    
     Args:
     filename: the name of the file where data are stored.
     No_iterations: number of AL iterations required.
@@ -62,6 +67,7 @@ def main(No_iterations=20, initial_size=2458):
     X, Y = D
     X_oop, Y_oop = D_oop
     Xv, Yv = D_v
+
     #create a dataset object
     dataset = Dataset(X=X, y=Y)
     #create a random forest model
@@ -80,12 +86,13 @@ def main(No_iterations=20, initial_size=2458):
         Error_RFR = np.sqrt(mean_squared_error(Y_oop, Trees.predict(X_oop)))
         print(f"Iteration: {str(iter)}, model: random forest regressor, test error: {Error_RFR} inverse centimeter")
 
-        # Initialize a neural network and train it
-        NN = MLPmodel()
-        NN = MLPtrain(NN, X_L, y_L, Xv, Yv)
-        # Compute the root mean squared error of the NN model on the OOP data
+        NN = MLPmodel(30)
+        
+        NN = MLPtrain(NN,X_L, y_L, Xv, Yv)
+       # # Compute the root mean squared error of the NN model on the OOP data
         Error_NN = np.sqrt(mean_squared_error(Y_oop, NN(X_oop)))
-        print(f"Iteration: {str(iter)}, model: neural network, test error: {Error_NN} inverse centimeter")
+        print(f"Iteration: {str(iter)}, model: neural network, test error: {Error_NN} inverse centimeter") 
+
 
         #Query new datapoints
         ids = query_strategy.make_query()
