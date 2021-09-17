@@ -57,9 +57,9 @@ def learning_rate_schedule(epoch, learning_rate):
 
 escallbacks = tf.keras.callbacks.EarlyStopping(monitor="val_loss",patience=25,verbose=1)
 
-def MLPmodel():
+def MLPmodel(n):
     model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(256, activation='relu', input_dim = 30),
+    tf.keras.layers.Dense(256, activation='relu', input_dim = n),
     tf.keras.layers.Dense(512, activation='relu',  kernel_regularizer = tf.keras.regularizers.l2(1e-5)),
     tf.keras.layers.Dense(256, activation='relu', kernel_regularizer = tf.keras.regularizers.l2(1e-5)),
     tf.keras.layers.Dense(1)])
