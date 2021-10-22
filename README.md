@@ -70,9 +70,8 @@ the manuscript and references therein.
 
 ## References
 
-[1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper, *Active learning
-of potential-energy surfaces of weakly-bound complexes with regression-tree
-ensembles*, [arXiv:2104.00708 [Physics]]( http://arxiv.org/abs/2104.00708) (2021).
+
+[1] Y. Saleh, V. Sanjay, A. Iske, A. Yachmenev, and J. Küpper , Active learning of potential-energy surfaces of weakly bound complexes with regression-tree ensembles, [J. Chem. Phys. 155, 144109] (https://doi.org/10.1063/5.0057051) (2021).
 
 [2] Y.-Y. Yang, S.-C. Lee, Y.-A. Chung, T.-E. Wu, S.-A. Chen, and H.-T. Lin, *libact: Pool-based active learning in Python*, [arXiv:1710.00379 [cs]]( http://arxiv.org/abs/1710.00379) (2017); [Github repository]( https://github.com/ntucllab/libact).
 
